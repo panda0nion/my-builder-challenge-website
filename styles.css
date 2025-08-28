@@ -242,6 +242,7 @@ main {
 }
 
 /* CONTACT FORM STYLES - Added for contact form functionality */
+/* CONTACT FORM STYLES - Added for contact form functionality */
 .contact-form {
     background: white;
     border-radius: 8px;
@@ -365,6 +366,19 @@ main {
     background: #6b6ab8;
     transform: translateY(-1px);
 }
+
+@media (max-width: 768px) {
+    /* Contact form mobile styles */
+    .contact-form {
+        padding: 24px;
+    }
+
+    /* Contact form mobile heading */
+    .contact-form h3 {
+        font-size: 24px;
+    }
+}
+
 /* END CONTACT FORM STYLES */
 
 footer {
